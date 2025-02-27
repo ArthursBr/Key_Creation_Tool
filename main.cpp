@@ -75,5 +75,5 @@ string cifrar(string texto, int x) {
     return resultado;
 }
 string decifrar(string texto, int x) {
-    return cifrar(texto, 26 - x); // Reutiliza a função de cifrar invertendo a chave
+    return cifrar(texto, 26 - x); 
 }
