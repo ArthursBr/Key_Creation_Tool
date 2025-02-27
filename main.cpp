@@ -14,11 +14,10 @@ int main() {
     exibirOpcao(opcao);
     while ((opcao == '1') || (opcao == '2')) {
         switch (opcao) {
-            case '1': // Cifrar texto
+            case '1': 
                 cout << "Informe o texto: ";
-                cin.ignore(); // Limpa o buffer antes de pegar a string completa
+                cin.ignore(); 
                 getline(cin, textoPrimario);
-                
                 cout << "Defina a chave: ";
                 cin >> chave;
 
@@ -26,11 +25,10 @@ int main() {
                 cout << "Texto Cifrado: " << textoCifrado << endl;
                 break;
 
-            case '2': // Decifrar texto
+            case '2': 
                 cout << "Informe o texto cifrado: ";
                 cin.ignore();
                 getline(cin, textoCifrado);
-
                 cout << "Defina a chave: ";
                 cin >> chave;
 
